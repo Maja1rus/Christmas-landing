@@ -1,0 +1,33 @@
+.home {
+
+    // .home__container
+
+    &__container {
+        row-gap: .5rem;
+    }
+
+    // .home__img
+
+    &__img {
+        width: 280px;
+        justify-self: center;
+    }
+
+    // .home__data
+
+    &__data {}
+
+    // .home__title
+
+    &__title {
+        font-size: var(--biggest-font-size);
+        font-weight: var(--font-bold);
+        margin-bottom: var(--mb-2);
+    }
+
+    // .home__description
+
+    &__description {
+        margin-bottom: var(--mb-3);
+    }
+}

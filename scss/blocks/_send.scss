@@ -1,0 +1,55 @@
+.send {
+    background-color: var(--first-color-send);
+
+    // .send__container
+
+    &__container {}
+
+    // .send__content
+
+    &__content {}
+
+    // .send__title
+
+    &__title,
+    &__description {
+        color: #fff;
+    }
+
+    // .send__description
+
+    &__description {
+        text-align: center;
+        margin-bottom: var(--mb-4);
+    }
+
+    // .send__direction
+
+    &__direction {
+        display: flex;
+        background-color: #fff;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+
+    // .send__input
+
+    &__input {
+        width: 90%;
+        outline: none;
+        border: none;
+        font-size: var(--normal-font-size);
+        font-family: var(--body-font);
+
+        &::placeholder {
+            font-family: var(--body-font);
+        }
+    }
+
+    // .send__img
+
+    &__img {
+        width: 280px;
+        justify-self: center;
+    }
+}

@@ -1,0 +1,26 @@
+.shere {
+
+    // .shere__container
+
+    &__container {}
+
+    // .shere__data
+
+    &__data {
+        text-align: center;
+    }
+
+    // .shere__description
+
+    &__description {
+        margin-bottom: var(--mb-2);
+    }
+
+    // .shere__img
+
+    &__img {
+        width: 280px;
+        justify-self: center;
+    }
+}
+
